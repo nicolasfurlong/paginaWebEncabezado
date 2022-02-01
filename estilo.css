@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+header {
+    background-color: cornflowerblue;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: column;
+    height: 100px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+}
+
+nav a {
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+
+@media (max-width: 500px){
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px;
+    }
+}
